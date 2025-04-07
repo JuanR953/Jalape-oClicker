@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(to right, rgb(252, 79, 79), rgb(255, 146, 146), rgb(252, 79, 79));
+    font-family: 'Arial';
+}
+#haceloGrid {
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+}
+div > main > button {
+    background: transparent;
+    border: transparent;
+}
+#clickeaAqui {
+    transform: scale(70%);
+}
+#clickeaAqui:hover {
+    cursor: pointer;
+}
+#clickeaAqui:active {
+    cursor: pointer;
+    filter: contrast(150%);
+    transform: scale(90%);
+}
+#tienda > button {
+    background: linear-gradient(red, rgb(252, 79, 79), red);
+    border: transparent;
+    margin: 15px;
+    padding: 5px;
+    display: block;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tienda > button:hover {
+    cursor: pointer;
+}
+#tienda > button > img {
+    width: 35px;
+    height: 35px;
+}
+h1 {
+    color: white;
+    font-family: "Arial";
+    font-size: 250%;
+}
+#tienda {
+    display: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+header > button {
+    font-family: 'Arial';
+    background: transparent;
+    border: transparent;
+    color: white;
+}
+header > button:hover {
+    cursor: pointer;
+    transform: scale(120%);
+}
+#tienda > h2 {
+    border-left: 2px solid white;
+    padding-left: 5px;
+    color: white;
+}
+#pantallaVictoria {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#pantallaVictoria > p {
+    color: white;
+    font-size: 300%;
+}
+#botonLogros {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: transparent;
+}
+#botonLogros:hover {
+    cursor: pointer;
+}
+#logros > p {
+    background: linear-gradient(to right, grey, rgb(201, 198, 198), grey);
+    border: transparent;
+    margin: 15px;
+    padding: 5px;
+    display: block;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalapeño Clicker</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>Autor: Juan Cruz Rossini</p>
+        <button id="porPeticionDeJustinho" onclick="mostrarTienda()">Tienda</button>
+    </header>
+    <div id="main">
+        <main>
+            <h1>Jalapeño Clicker</h1>
+            <button id="clickeaAqui" onclick="contarClicks()"><img src="https://png.pngtree.com/png-clipart/20240901/original/pngtree-jalapeno-cartoon-images-3d-realistic-icon-with-green-pepper-on-background-png-image_15902548.png" id="Jalapeño" width="300px" height="300px">
+            </button>
+            <p id="textoJalapeño">Haz tu primer jalapeño</p>
+        </main>
+    </div>
+    <button id="botonLogros" onclick="hola()"><img id="botonLogros" src="https://cdn-icons-png.flaticon.com/128/9232/9232100.png" alt=""></button>
+
+    <section id="tienda">
+        <h2>Sumar Clicks</h2>
+        <button onclick="comprarClicks(2, 200)"><img src="https://cdn-icons-png.flaticon.com/128/4046/4046895.png" alt=""> "Salsa Picante" Comprar 2 clicks mas por $200 jalapeños.</button>
+        <button onclick="comprarClicks(6, 500)"><img src="https://cdn-icons-png.flaticon.com/128/2865/2865984.png" alt=""> "Guantes Resistentes" Comprar 6 clicks mas por $500 jalapeños.</button>
+        <button onclick="comprarClicks(12, 1000)"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968260.png" alt=""> "Inversión Millonaria" Comprar 12 clicks mas por $1000 jalapeños.</button>
+        <h2>Skins</h2>
+        <button onclick="comprarSkin('skin2.png', 1000)"><img src="skin2.png" alt=""> Skin 1 - Comprar una skin de jalapeño por $1000 jalapeños.</button>
+        <button onclick="comprarSkin('https://static.wikia.nocookie.net/viajando-en-el-tiempo/images/0/0f/Jalape%C3%B1o.png/revision/latest?cb=20170817212312&path-prefix=es', 1000)"><img src="https://static.wikia.nocookie.net/viajando-en-el-tiempo/images/0/0f/Jalape%C3%B1o.png/revision/latest?cb=20170817212312&path-prefix=es" alt="" width="0.5px"> Skin 2 - Comprar una skin de jalapeño por $1000 jalapeños.</button>
+        <button onclick="comprarSkin('https://images.vexels.com/media/users/3/254176/isolated/preview/c2a5a31927ba212c251f2ed160cd328b-dibujos-animados-de-chile-picante.png', 1000)"><img src="https://images.vexels.com/media/users/3/254176/isolated/preview/c2a5a31927ba212c251f2ed160cd328b-dibujos-animados-de-chile-picante.png" alt=""> Skin 1 - Comprar una skin de jalapeño por $1000 jalapeños.</button>
+        <h2>Generar Clicks Automáticos</h2>
+        <button id="iniciarBoton" onclick="iniciarClics(100, 500)"><img src="https://cdn-icons-png.flaticon.com/128/4509/4509624.png" alt="">"Contratar Nene Africano" Generar 1 click cada segundo por $100 jalapeños</button>
+        <button id="iniciarBoton" onclick="iniciarClics(400, 90)"><img src="https://cdn-icons-png.flaticon.com/128/7417/7417717.png" alt="">"Contratar Granjero" Generar 5 click cada segundo por $400 jalapeños</button>
+
+        <p id="p">Tienes 0 jalapeños</p>
+    </section>
+    <section id="logros" style="display: none;">
+        <p id="a">Primer Click</p>
+        <p id="b">1000 Clicks</p>
+        <p id="c">5000 Click</p>
+        <p id="d">10000 Click</p>
+        <p id="e">50000 Click</p>
+        <p id="f">10000 Click</p>
+
+    </section>
+    <aside id="pantallaVictoria">
+        <h1>Victoria Magistral</h1>
+    </aside>
+
+    <SAmp>PRODUCIDO Y VENDIDO POR JUANCHI Co. Ltd. sociedad anonima no responsable. Versión Experimental.</SAmp>
+</body>
+</html>
